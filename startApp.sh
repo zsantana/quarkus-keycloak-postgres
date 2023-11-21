@@ -1,0 +1,2 @@
+export JAVA_OPTS=" -Xms64m -Xmx512M -XX:+UseZGC -XX:ActiveProcessorCount=2 -Xlog:gc -XX:MaxRAMPercentage=75 -XX:+AlwaysPreTouch -XX:+ExitOnOutOfMemoryError"
+java $JAVA_OPTS -jar target/quarkus-app/quarkus-run.jar
